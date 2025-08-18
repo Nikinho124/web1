@@ -1,0 +1,18 @@
+from django.shortcuts import render, HttpResponse
+
+def home(request):
+    return render(request,"core/home.html")
+
+def foro(request):
+    return render(request,"core/foro.html")
+
+
+
+
+"""
+def home(request):
+    return HttpResponse("<h1>Inicio<h1/>")
+
+def foro(request):
+    return HttpResponse("<h1>Foro<h1/>")
+"""
